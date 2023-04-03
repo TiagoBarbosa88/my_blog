@@ -1,0 +1,18 @@
+.menu {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(112, 114, 112);
+  height: 60px;
+  width: 100%;
+  box-shadow: 5px 2px 5px black;
+}
+
+.menu > li {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 2px 5px black;
+}
