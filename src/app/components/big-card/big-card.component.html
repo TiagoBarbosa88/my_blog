@@ -1,19 +1,19 @@
 <div class="container">
   <div class="container__big-card">
     <div class="big-card__photo">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNaLFFSdD4YhW8mqgDBSWY8nHnte6ANHQWz6Lsl37yA&s"
-        height="250px"width="395px"  alt="">
+      <img
+      src="{{ photoCover }}"
+          alt="{{ cardTitle }}">
     </div>
 
     <div class="big-card__title">
       <h1>
-        <a href="#">Saiu a nova versão do Angular</a>
+        <a href="#">{{ cardTitle }}</a>
       </h1>
     </div>
 
     <div class="big-card__description">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corrupti aliquam odit distinctio eaque.       Voluptatibus corrupti aliquam odit distinctio eaque.
-      </p>
+      <p>{{ cardDescription }}</p>
     </div>
   </div>
 </div>
