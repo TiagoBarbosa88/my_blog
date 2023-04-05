@@ -1,20 +1,20 @@
 .container__small-card {
-  /* //border: black 1px solid; */
   width: 700px;
-  height: 160px;
+  margin-bottom: 15px;
 
 }
 
 .container__small-card-content {
   display: flex;
   flex-direction: row;
+
 }
 
 .small-card__photo > img {
-  width: 250px;
-  min-width: 250px;
-  height: 150px;
-  margin-right: 10px;
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+
 }
 
 .small-card__title {
@@ -27,4 +27,6 @@
   font-size: 20px;
 }
 
-
+.container__small-card__separator{
+  margin-top: 10px;
+}

@@ -4,4 +4,7 @@
   flex-direction: row;
 }
 
-
+.articles_other {
+  display: flex;
+  flex-direction: column;
+}
